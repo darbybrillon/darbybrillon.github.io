@@ -81,6 +81,16 @@ h2 {
   margin-top: 50px;
   font-size: 30px;
 }
+h2home {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 10px; 
+  font-size: 18px;
+  color: #39275B;
+}
 ul {
   font-size: 18px;
   line-height: 1.8;
@@ -113,4 +123,5 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
+
 
