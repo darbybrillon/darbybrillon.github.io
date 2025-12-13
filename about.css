@@ -1,0 +1,42 @@
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.profile-section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.profile-section img {
+    width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 700px;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
