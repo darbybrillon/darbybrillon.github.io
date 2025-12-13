@@ -10,7 +10,7 @@ body {
   flex-direction: column;
 }
 header {
-  background: #1f2937;
+  background: #39275b;
   color: white;
   padding: 15px 40px;
   display: flex;
@@ -123,6 +123,7 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
+
 
 
 
