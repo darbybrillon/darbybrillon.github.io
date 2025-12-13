@@ -88,7 +88,7 @@ h2home {
 
 h3 {
   margin-top: 10px; 
-  font-size: 18px;
+  font-size: 25px;
   color: #39275B;
 }
 ul {
@@ -123,5 +123,6 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
+
 
 
