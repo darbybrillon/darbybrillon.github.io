@@ -34,22 +34,31 @@
 
     <div class="container">
         <h1>Projects</h1>
-
+        
         <section id="Project1" class="section">
-            <h2>Handwritten Number Classifier</h2>
+            <h2><a href="https://github.com/darbybrillon/CSE-599-Project">Entropy & Compression Based Evaluation on LLM Tokenizers - CSE 599S Final Project</a></h2>
+            <p>Reproduced results from Erdogan et al.'s <a href="https://arxiv.org/abs/2601.09039">"An Information-Theoretic Perspective on LLM Tokenizers"</a>.
+                paper. Evaluated how tokenizer training scale, tokenizer family, and training/test domain mismatch affect compression and empirical k-gram entropy. 
+                Expanded on paper to include Liu et al.'s <a href="https://arxiv.org/abs/2503.13423"> SuperBPE</a> tokenizer in evaluation. 
+                <a href="https://github.com/darbybrillon/CSE-599-Project/blob/main/Entropy-Eval.pdf"> Link</a> for full report.
+            </p>
+        </section>
+        
+        <section id="Project2" class="section">
+            <h2><a href="https://github.com/darbybrillon/Learning-Model">Handwritten Number Classifier</a></h2>
             <p>Built a convolutional neural network using to classify MNIST digits with 2 hidden layers 
                 and 2 convolution layers. All model architecture built from scratch; TensorFlow used only 
                 for dataset import.</p>
         </section>
 
-        <section id="Project2" class="section">
-            <h2>Rubik’s Cube Solver</h2>
+        <section id="Project3" class="section">
+            <h2><a href="https://github.com/darbybrillon/Rubiks-Cube">Rubik’s Cube Solver</a></h2>
             <p>Designed a 4-stage cube solver using group theory and graph search algorithms (BFS, DFS, 
                 pruning tables). Solves any scramble in 13.94s avg with 31.36 moves avg. Coded in Python 
                 and Java; currently adapting to C++. No libraries used.</p>
         </section>
 
-        <section id="Project3" class="section">
+        <section id="Project4" class="section">
             <h2>Quantitative Stock Analysis Program</h2>
             <p>Developed a Python stock analysis bot leveraging DCF, DDM, Black-Scholes, and other mathematical 
                 valuation models. Built a historical back testing engine to evaluate strategy performance. 
